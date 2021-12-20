@@ -19,7 +19,7 @@ interface IAppComponentProps {
 class AppComponent extends React.Component<IAppComponentProps, Record<string, unknown>> {
 
     public componentDidMount() : void {
-        console.info( "Estoy en componentDidMount" );
+        console.info( "Estoy en componentDidMount2" );
     }
 
     public componentDidUpdate() : void {
